@@ -5,11 +5,14 @@
   --text: #111118;
   --muted: #585866;
   --border: rgba(17, 17, 24, 0.09);
-  --brand: #a61e4d;
-  --brand-2: #ff6b6b;
-  --ring: rgba(166, 30, 77, 0.35);
+  --brand: #1d4ed8;
+  --brand-2: #38bdf8;
+  --ring: rgba(29, 78, 216, 0.35);
   --shadow: 0 18px 48px rgba(17, 17, 24, 0.12);
   --radius: 18px;
+  --tint-1: #ffffff;
+  --tint-2: #eef5ff;
+  --tint-3: #e9f3fb;
 }
 
 *,
@@ -197,6 +200,7 @@ main {
 
 .page-hero {
   padding: 2.2rem 0 1.2rem;
+  background: linear-gradient(135deg, rgba(166, 30, 77, 0.12), rgba(255, 255, 255, 0.8));
 }
 
 .page-hero h1 {
@@ -290,6 +294,27 @@ main {
 
 .section {
   padding: 1.6rem 0;
+}
+
+.section.is-tint-1 {
+  background: var(--tint-1);
+}
+
+.section.is-tint-2 {
+  background: var(--tint-2);
+}
+
+.section.is-tint-3 {
+  background: var(--tint-3);
+}
+
+.section.is-tint-1 .card,
+.section.is-tint-2 .card,
+.section.is-tint-3 .card,
+.section.is-tint-1 .icon-card,
+.section.is-tint-2 .icon-card,
+.section.is-tint-3 .icon-card {
+  background: #ffffff;
 }
 
 .cta {
