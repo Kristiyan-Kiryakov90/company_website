@@ -336,6 +336,49 @@ main {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.icon-links {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.icon-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.9rem;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 22px rgba(17, 17, 24, 0.06);
+}
+
+.icon-card strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.icon-card:hover {
+  border-color: rgba(166, 30, 77, 0.24);
+  transform: translateY(-2px);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: rgba(166, 30, 77, 0.12);
+  color: var(--brand);
+}
+
+.icon-circle svg {
+  width: 22px;
+  height: 22px;
+}
+
 .pricing {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -532,6 +575,10 @@ textarea {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .icon-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .gallery {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -579,6 +626,10 @@ textarea {
   }
 
   .pricing {
+    grid-template-columns: 1fr;
+  }
+
+  .icon-links {
     grid-template-columns: 1fr;
   }
 
