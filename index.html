@@ -22,12 +22,12 @@
           </div>
           <div class="topbar-actions">
             <a href="tel:+10000000000">(000) 000-0000</a>
-            <a href="#contact">Book online</a>
+            <a href="contact.html">Book online</a>
           </div>
         </div>
       </div>
       <div class="container header-row">
-        <a class="logo" href="#home" aria-label="Hair Studio home">
+        <a class="logo" href="index.html" aria-label="Hair Studio home">
           <span class="logo-mark" aria-hidden="true">HS</span>
           <span class="logo-text">Hair Studio</span>
         </a>
@@ -42,17 +42,18 @@
         </button>
 
         <nav id="site-nav" class="site-nav" aria-label="Primary">
-          <a href="#services">Services</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#contact">Contact</a>
-          <a class="btn btn-primary" href="#contact">Book now</a>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+          <a class="btn btn-primary" href="contact.html">Book now</a>
         </nav>
       </div>
     </header>
 
     <main id="main">
-      <section id="home" class="hero" aria-label="Hero">
+      <section class="hero" aria-label="Hero">
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow">Hairdresser studio</p>
@@ -62,8 +63,8 @@
               From everyday trims to special-occasion styling.
             </p>
             <div class="actions">
-              <a class="btn btn-primary" href="#contact">Book an appointment</a>
-              <a class="btn btn-ghost" href="#services">View services</a>
+              <a class="btn btn-primary" href="contact.html">Book an appointment</a>
+              <a class="btn btn-ghost" href="services.html">View services</a>
             </div>
             <ul class="trust" aria-label="Highlights">
               <li>Easy booking</li>
@@ -89,67 +90,80 @@
                   <dd>Mon-Sat 10:00-19:00</dd>
                 </div>
               </dl>
-              <a class="btn btn-secondary" href="#contact">Get in touch</a>
+              <a class="btn btn-secondary" href="contact.html">Get in touch</a>
             </div>
           </aside>
         </div>
       </section>
 
-      <section id="services" class="section" aria-label="Services">
+      <section class="section" aria-label="Featured services">
         <div class="container">
           <header class="section-head">
-            <h2>Services</h2>
-            <p>Choose a service and we will tailor the details to your hair and goals.</p>
+            <h2>Popular services</h2>
+            <p>Explore our full menu for customized details and add-ons.</p>
           </header>
 
           <div class="grid cards">
             <article class="card">
-              <h3 class="card-title">Haircuts</h3>
-              <p>Women, men, and kids. Includes consultation and finish.</p>
-              <p class="pill">30-60 min</p>
+              <h3 class="card-title">Signature cut</h3>
+              <p>Consultation, precision cut, and finish.</p>
+              <a class="text-link" href="services.html">View details</a>
             </article>
             <article class="card">
-              <h3 class="card-title">Color</h3>
-              <p>Roots, highlights, balayage, gloss, and tone correction.</p>
-              <p class="pill">2-4 hours</p>
+              <h3 class="card-title">Color + gloss</h3>
+              <p>Custom color, root touch-up, and tonal gloss.</p>
+              <a class="text-link" href="services.html">View details</a>
             </article>
             <article class="card">
-              <h3 class="card-title">Blowouts and styling</h3>
-              <p>Smooth blowouts, curls, waves, and event styling.</p>
-              <p class="pill">45-90 min</p>
+              <h3 class="card-title">Event styling</h3>
+              <p>Soft waves, updos, and bridal prep.</p>
+              <a class="text-link" href="services.html">View details</a>
             </article>
             <article class="card">
-              <h3 class="card-title">Treatments</h3>
-              <p>Repair, hydration, scalp care, and shine boosts.</p>
-              <p class="pill">20-45 min</p>
+              <h3 class="card-title">Repair treatment</h3>
+              <p>Hydration, bond repair, and scalp care.</p>
+              <a class="text-link" href="services.html">View details</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="gallery" class="section" aria-label="Gallery">
+      <section class="section" aria-label="Gallery preview">
         <div class="container">
           <header class="section-head">
-            <h2>Gallery</h2>
-            <p>A few examples of recent work. Replace these with your photos.</p>
+            <h2>Recent work</h2>
+            <p>See more transformations in the gallery.</p>
           </header>
 
-          <div class="grid gallery" aria-label="Photo placeholders">
-            <div class="photo" aria-hidden="true"></div>
-            <div class="photo" aria-hidden="true"></div>
-            <div class="photo" aria-hidden="true"></div>
-            <div class="photo" aria-hidden="true"></div>
-            <div class="photo" aria-hidden="true"></div>
-            <div class="photo" aria-hidden="true"></div>
+          <div class="grid gallery">
+            <img
+              class="gallery-img"
+              src="./img/color-cut-style-blonde-woman.jpg"
+              alt="Styled blonde hair with soft waves"
+              loading="lazy"
+            />
+            <img
+              class="gallery-img"
+              src="./img/hair-style-2021-blog.jpg"
+              alt="Glossy layered haircut"
+              loading="lazy"
+            />
+            <img
+              class="gallery-img"
+              src="./img/istockphoto-1147812518-612x612.jpg"
+              alt="Fresh salon blowout"
+              loading="lazy"
+            />
           </div>
+          <a class="btn btn-ghost" href="gallery.html">Open full gallery</a>
         </div>
       </section>
 
-      <section id="pricing" class="section" aria-label="Pricing">
+      <section class="section" aria-label="Pricing preview">
         <div class="container">
           <header class="section-head">
-            <h2>Pricing</h2>
-            <p>Transparent pricing. Final cost may vary based on length and density.</p>
+            <h2>Pricing snapshot</h2>
+            <p>Clear starting prices with options for personalization.</p>
           </header>
 
           <div class="grid pricing">
@@ -169,58 +183,17 @@
               <p class="muted">Blowout, curls, and special occasions.</p>
             </article>
           </div>
+          <a class="btn btn-ghost" href="pricing.html">See full pricing</a>
         </div>
       </section>
 
-      <section id="contact" class="section" aria-label="Contact and booking">
-        <div class="container contact-grid">
-          <header class="section-head">
-            <h2>Contact</h2>
-            <p>Send a request and we will confirm the time with you.</p>
-          </header>
-
-          <div class="contact-card card">
-            <h3 class="card-title">Details</h3>
-            <ul class="contact-list">
-              <li><span class="muted">Address:</span> Street Name 123, City</li>
-              <li><span class="muted">Phone:</span> (000) 000-0000</li>
-              <li><span class="muted">Hours:</span> Mon-Sat 10:00-19:00</li>
-            </ul>
+      <section class="section cta" aria-label="Booking call to action">
+        <div class="container cta-row">
+          <div>
+            <h2>Ready for a refresh?</h2>
+            <p class="muted">Tell us your goals and we will suggest the right service.</p>
           </div>
-
-          <form class="card form" aria-label="Appointment request form">
-            <h3 class="card-title">Request an appointment</h3>
-            <label>
-              Name
-              <input name="name" autocomplete="name" required />
-            </label>
-            <label>
-              Phone or email
-              <input name="contact" autocomplete="email" required />
-            </label>
-            <label>
-              What would you like to book?
-              <textarea
-                name="message"
-                rows="4"
-                placeholder="e.g., haircut + blowout on Friday after 5pm"
-              ></textarea>
-            </label>
-            <button class="btn btn-primary" type="submit">Send request</button>
-            <p class="muted fineprint">
-              This form is a placeholder for now. Next step can connect it to email or a
-              booking tool.
-            </p>
-          </form>
-        </div>
-      </section>
-
-      <section id="privacy" class="section" aria-label="Privacy">
-        <div class="container">
-          <header class="section-head">
-            <h2>Privacy</h2>
-            <p class="muted">Placeholder. Add your privacy policy text here.</p>
-          </header>
+          <a class="btn btn-primary" href="contact.html">Book an appointment</a>
         </div>
       </section>
     </main>
@@ -244,11 +217,11 @@
         <div>
           <h3 class="footer-title">Explore</h3>
           <nav class="footer-links" aria-label="Footer">
-            <a href="#services">Services</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#contact">Contact</a>
-            <a href="#privacy">Privacy</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
           </nav>
         </div>
         <div>
@@ -262,7 +235,7 @@
         <div>
           <h3 class="footer-title">Book an appointment</h3>
           <p class="muted">Call or send a request to confirm your time.</p>
-          <a class="btn btn-primary" href="#contact">Book now</a>
+          <a class="btn btn-primary" href="contact.html">Book now</a>
         </div>
       </div>
       <div class="container footer-bottom">
@@ -270,8 +243,8 @@
           >&copy; <span id="year">2026</span> Hair Studio. All rights reserved.</small
         >
         <div class="footer-legal">
-          <a href="#privacy">Privacy</a>
-          <a href="#contact">Contact</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="contact.html">Contact</a>
         </div>
       </div>
     </footer>

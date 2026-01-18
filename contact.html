@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Hair Studio</title>
+    <meta
+      name="description"
+      content="Contact Hair Studio to book a haircut, color, or styling appointment."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="topbar">
+        <div class="container topbar-row">
+          <div class="topbar-info">
+            <span>Mon-Sat 10:00-19:00</span>
+            <span>Street Name 123, City</span>
+          </div>
+          <div class="topbar-actions">
+            <a href="tel:+10000000000">(000) 000-0000</a>
+            <a href="contact.html">Book online</a>
+          </div>
+        </div>
+      </div>
+      <div class="container header-row">
+        <a class="logo" href="index.html" aria-label="Hair Studio home">
+          <span class="logo-mark" aria-hidden="true">HS</span>
+          <span class="logo-text">Hair Studio</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+          <a class="btn btn-primary" href="contact.html">Book now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero" aria-label="Contact overview">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1>Book your appointment.</h1>
+          <p class="lead">
+            Send a request and we will confirm the time with you.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <header class="section-head">
+            <h2>Get in touch</h2>
+            <p>We respond within one business day.</p>
+          </header>
+
+          <div class="contact-card card">
+            <h3 class="card-title">Details</h3>
+            <ul class="contact-list">
+              <li><span class="muted">Address:</span> Street Name 123, City</li>
+              <li><span class="muted">Phone:</span> (000) 000-0000</li>
+              <li><span class="muted">Hours:</span> Mon-Sat 10:00-19:00</li>
+            </ul>
+          </div>
+
+          <form class="card form" aria-label="Appointment request form">
+            <h3 class="card-title">Request an appointment</h3>
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Phone or email
+              <input name="contact" autocomplete="email" required />
+            </label>
+            <label>
+              What would you like to book?
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="e.g., haircut + blowout on Friday after 5pm"
+              ></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send request</button>
+            <p class="muted fineprint">
+              This form is a placeholder for now. Next step can connect it to email or a
+              booking tool.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="logo-mark" aria-hidden="true">HS</span>
+            <div>
+              <strong>Hair Studio</strong>
+              <p class="muted">Modern cuts, color, and styling.</p>
+            </div>
+          </div>
+          <p class="muted">
+            Street Name 123, City<br />
+            Mon-Sat 10:00-19:00
+          </p>
+          <p class="muted">Phone: (000) 000-0000</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Explore</h3>
+          <nav class="footer-links" aria-label="Footer">
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+          </nav>
+        </div>
+        <div>
+          <h3 class="footer-title">Follow</h3>
+          <div class="footer-links">
+            <a href="https://instagram.com" rel="noopener">Instagram</a>
+            <a href="https://facebook.com" rel="noopener">Facebook</a>
+            <a href="https://tiktok.com" rel="noopener">TikTok</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">Book an appointment</h3>
+          <p class="muted">Call or send a request to confirm your time.</p>
+          <a class="btn btn-primary" href="contact.html">Book now</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <small class="muted"
+          >&copy; <span id="year">2026</span> Hair Studio. All rights reserved.</small
+        >
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
